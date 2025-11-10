@@ -3,7 +3,7 @@ titulo.textContent = "Aparecida Nutricionista";
 
 var pacientes = document.querySelectorAll(".paciente");
 
-for (var i = 0; i < pacientes.lenght; i++){
+for (var i = 0; i < pacientes.length; i++){
 
     var paciente = pacientes[i];
     
