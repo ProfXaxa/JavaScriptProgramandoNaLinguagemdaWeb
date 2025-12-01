@@ -30,11 +30,11 @@ function montarTr(pacinte){
     var pacienteTr = document.createElement("tr");
     pacienteTr.classList.add("paciente");
     
-    pacienteTr.appendChild(montarTd(paciente.nome, "info-nome"));
-    pacienteTr.appendChild(montarTd(paciente.peso, "info-peso"));
-    pacienteTr.appendChild(montarTd(paciente.altura, "info-altura"));
-    pacienteTr.appendChild(motarTd(paciente.gordura, "info-gordura"));
-    pacienteTr.appendChild(montarTd(paciente.imc, "info-imc"));
+    pacienteTr.appendChild(montaTd(paciente.nome, "info-nome"));
+    pacienteTr.appendChild(montaTd(paciente.peso, "info-peso"));
+    pacienteTr.appendChild(montaTd(paciente.altura, "info-altura"));
+    pacienteTr.appendChild(montaTd(paciente.gordura, "info-gordura"));
+    pacienteTr.appendChild(montaTd(paciente.imc, "info-imc"));
     return pacienteTr;
 }
 
